@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+       
+        
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "tsc.js",
+        "sourceMap": true
+    },
+
+    "files": [
+        "main.ts",
+        "Sprite.ts",
+        "DisplayClass.ts",
+        "ImageLoader.ts",
+        "JMath.ts",
+        "GameScreen.ts",
+        "TouchClass.ts",
+        "BlitMan.ts"
+       
+      
+    ]
+}
