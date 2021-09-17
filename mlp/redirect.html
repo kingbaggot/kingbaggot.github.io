@@ -1,0 +1,100 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Redirect</title>
+
+  <style>
+      html, body {
+       
+         overflow: hidden;
+         margin: 10px;
+         background-color: #FFF;
+      }
+
+   	  .box{
+      position:relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+	  font-size: 20px;
+      }
+
+      .icn{
+      width:30%;
+      height:30%;
+      display: flex;
+      }
+
+     
+      .txt
+      {
+        position:relative;
+        font-color:#F00;;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin: 5%;
+      }
+
+       .txt2
+      {
+        position:relative;
+        font-color:#F00;;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin: 5%;
+      }
+
+      </style>
+
+
+	<table>
+	<tr>
+<div class = "txt2">
+Mobile only. Please follow this link on your Android or iOS device to download the Augmented Gallery app. Thanks.
+<div>
+</tr>
+
+<tr>
+<div class = "box">
+    <img src= "img/icon_256.png" align = center>
+</div>
+</tr>
+
+<tr>
+<a href="https://apps.apple.com/ao/app/art-of-london-ar-gallery/id1534504196">
+	    <div class = "txt">
+	       iOS
+	    </div>
+	</a>
+</tr>
+
+<tr>
+<a href="https://play.google.com/store/apps/details?id=com.playlines.art&hl=en&gl=UK">
+	    <div class = "txt">
+	    Android
+	    </div>
+</tr>
+
+	</table>
+	
+<script type="text/javascript"> // <![CDATA[
+//iPhone Version:
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    window.location = "https://apps.apple.com/ao/app/art-of-london-ar-gallery/id1534504196";
+}
+//Android Version:
+if(navigator.userAgent.match(/android/i)) {
+    window.location = "https://play.google.com/store/apps/details?id=com.playlines.art&hl=en&gl=UK";
+}
+//Blackberry Version:
+if(navigator.userAgent.match(/blackberry/i)) {
+    window.location = "http://goo.gl/jH2wD";
+}
+ 
+</script>
+
+</body>
+</html>
